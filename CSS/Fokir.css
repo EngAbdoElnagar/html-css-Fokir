@@ -274,14 +274,14 @@ body {
     width: 100%;
     margin: auto;
   }
-    #About .About-img .border-img{
-      border: none;
-    }
+  #About .About-img .border-img {
+    border: none;
+  }
   #About .About-text button {
     padding: 10px 15px;
     margin: 10px;
   }
-    #About .About-text {
+  #About .About-text {
     float: right;
     display: block;
     width: 100%;
@@ -457,7 +457,7 @@ body {
   transition: 0.5s;
   transform: scale(1.1);
   box-shadow: 15px, 15px, 10px, 15px #777;
-  box-shadow: 5px 5px 10px #888888;  
+  box-shadow: 5px 5px 10px #888888;
   border-radius: 3px;
 }
 .sessions i {
@@ -613,7 +613,7 @@ body {
   position: relative;
 }
 
-#Testimonial .contenar .card .sheep{
+#Testimonial .contenar .card .sheep {
   width: 300px;
   height: 300px;
   background-color: #ff305b;
@@ -624,6 +624,42 @@ body {
   position: absolute;
 }
 
+@media (max-width: 992px) {
+  #Testimonial .contenar .card .sheep {
+    width: 300px;
+    height: 300px;
+    background-color: #ff305b;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -84%;
+    left: -25%;
+    position: absolute;
+  }
+}
+@media (max-width: 767px) {
+  #Testimonial .contenar .card .sheep {
+    width: 300px;
+    height: 300px;
+    background-color: #ff305b;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -93%;
+    left: -31%;
+    position: absolute;
+  }
+}
+@media (max-width: 450px) {
+  #Testimonial .contenar .card .sheep {
+    width: 300px;
+    height: 300px;
+    background-color: #ff305b;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -108%;
+    left: -47%;
+    position: absolute;
+  }
+}
 #Testimonial .contenar .card .img {
   width: 200px;
   height: 200px;
@@ -700,8 +736,8 @@ iframe {
   width: 100%;
   height: 50%;
 }
-#Blog .contenar .Our-Blog .card iframe{
-  resize:both;
+#Blog .contenar .Our-Blog .card iframe {
+  resize: both;
   display: inline-block;
   height: 180px;
 }
